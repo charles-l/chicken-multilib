@@ -1,4 +1,4 @@
-FROM gcc:5
+FROM buildpack-deps:wily
 MAINTAINER Hugome <hugo@hugome.eu>
 
 RUN dpkg --add-architecture i386
