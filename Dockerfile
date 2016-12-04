@@ -7,5 +7,9 @@ RUN apt-get update && apt-get install -y \
 	gcc-multilib \
 	libc6-dev-i386 \
 	zlib1g-dev \
-	zlib1g-dev:i386
+	zlib1g-dev:i386 \
+	gdb \
+	chicken-bin \
+	entr
+RUN chicken-install posix fmt
 RUN mkdir -p /out
