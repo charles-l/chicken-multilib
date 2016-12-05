@@ -1,5 +1,5 @@
 FROM buildpack-deps:wily
-MAINTAINER Hugome <hugo@hugome.eu>
+MAINTAINER nc <chuckiels2011@gmail.com>
 
 RUN dpkg --add-architecture i386
 RUN apt-get update && apt-get install -y \

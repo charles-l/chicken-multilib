@@ -1,2 +1,2 @@
-# gcc-multilib
-Docker for gcc multilib
+# chicken-multilib
+Docker with chicken + gcc multilib
